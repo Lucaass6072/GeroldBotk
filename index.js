@@ -24,3 +24,10 @@ bot.command({
     code: `
 $eval[$message]`
 })
+
+bot.status({
+    text:'Online', 
+    type:'WATCHING', 
+    status:'dnd', 
+    time: 5
+ });
